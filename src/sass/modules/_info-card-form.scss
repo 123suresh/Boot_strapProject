@@ -1,0 +1,38 @@
+.info-card{
+    background-color: $white;
+    padding: 20px;
+    margin: 10px;
+    &--icon{
+        text-align: center;
+    }
+    h5{
+        color: $ParagraphFont;
+        padding: 5px;
+    }
+}
+
+.info-icons{
+    border: 1pt solid $rect-btn-col;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: $rect-btn-col;
+    margin: auto;
+}
+.info-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    background-color: $white;
+    padding: 36px;
+    &-group{
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: $ParagraphFont;
+    }
+    &-control{
+        background-color: $body-bg-color;
+    }
+}

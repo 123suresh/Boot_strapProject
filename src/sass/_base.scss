@@ -1,0 +1,35 @@
+@font-face {
+    font-family: headfont;
+    src: url('../txtFonts/inter-Bold.ttf');
+}
+@font-face {
+    font-family: paragraphfont;
+    src: url('../txtFonts/Inter-Light.ttf');
+}
+@mixin h5_props {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: headfont;
+    color: #2B2B2B;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color:$body-bg-color;
+}
+.nav-link{
+    @include h5_props;
+}
+h1{
+    font-family: headfont;
+}
+h2{
+    font-family: headfont;
+}
+p{
+    font-family: paragraphfont;
+    color: $ParagraphFont;
+}
+h5{
+    @include h5_props;
+}

@@ -1,0 +1,35 @@
+.portfolio__img{
+    background-color: $body-bg-color;
+    padding: 10px;
+}
+.using--opacity{
+    width: 100%;
+    height: 330px;
+    background: url(../images/portfolio-img1.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 180, 0, 0.95);
+}
+.icon-plus{
+    color:$Black;
+    font-size: 35px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
+.card-body{
+    .blog__a{
+        text-decoration: none;
+        font-size: 18px;
+        color: $Yellow2;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,60 @@
+@mixin circle_shape {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+@mixin rect_shape {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: right;
+}
+.cir_shapes1{
+    @include circle_shape;
+    border:3px solid $Yellow2;
+    margin-left: 20px;
+    margin-top:20px ;
+}
+.cir_shapes2{
+    @include circle_shape;
+    border:3px solid #05FF00;
+    position: relative;
+    top: 40px;
+}
+.cir_shapes3{
+    @include circle_shape;
+    border:3px solid #05FF00;
+    margin-left: 50px;
+    margin-top:30px ;
+}
+.cir_shapes4{
+    @include circle_shape;
+    border:3px solid $Yellow2;
+    float: right;
+    position: relative;
+    top: 150px;
+}
+
+.rect_shape1{
+    @include rect_shape;
+    border: 3px solid $Yellow2;
+    left: -100px;
+    top: 50px;
+}
+.rect_shape2{
+    @include rect_shape;
+    border: 3px solid #0047FF;
+    left: -110px;
+    top: 20px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    float: right;
+    position: relative;
+    top: 400px;
+    left: -20px;
+}
